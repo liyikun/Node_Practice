@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "liyikunl@live.com <liyikunl@live.com>",
+  "license": "MIT",
+  "repository": "https://github.com/liyikun/Node_Practice.git",
+  "dependencies": {
+    "@types/node": "^12.7.1"
+  }
 }
