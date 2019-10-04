@@ -19,5 +19,6 @@ proxy.once("selected",callback)
 
 
 proxy.once("selected",callback2)
+proxy.once("selected",() => console.log("abc3"))
 
 proxy.emit("selected")

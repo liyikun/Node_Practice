@@ -1,5 +1,10 @@
 /** @type {NodeJS} */
 
+/**
+ * MicroTask process.nextTick，Promises，Object.observe，MutationObserver 
+ * MacroTask script setTimeout，setInterval，setImmediate，requestAnimationFrame，I / O
+ */
+
 console.log('2333')
 
 process.nextTick(() => {
@@ -15,6 +20,10 @@ var a = new Promise((resolve) => {
 })
 
 Promise.resolve(console.log("4"))
+
+a.then(() => {
+    console.log("4+")
+})
 
 setTimeout(() => {
     console.log("2")
