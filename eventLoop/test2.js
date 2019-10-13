@@ -5,6 +5,10 @@ var a = new Promise((resolve) => {
 
 a.then(() => {
     console.log("55")
+        
+    process.nextTick(() => {
+        console.log("211")
+    })
 })
 
 process.nextTick(() => {
@@ -13,6 +17,7 @@ process.nextTick(() => {
 
 setTimeout(() => {
     console.log("22")
+
 })
 
 
