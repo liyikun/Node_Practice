@@ -12,7 +12,7 @@
   "repository": "https://github.com/liyikun/Node_Practice.git",
   "dependencies": {
     "@types/node": "^13.1.2",
-    "node-forge": "^0.9.1"
+    "node-forge": "^0.10.0"
   },
   "devDependencies": {
     "@types/node-forge": "^0.9.0"
